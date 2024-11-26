@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,94.6,194;1,94.6,194&display=swap');
+
+:root {
+    --ab-black: #1F1F1F;
+    --bonewhite: #F9F6EE;
+}
+
+.font-archivo {
+    font-family: "Archivo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 194;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 94.6;
+  }
+
+.darkmode {
+    background-color: var(--ab-black);
+    color: var(--bonewhite);
+
+}
+
+.main-heading {
+    font-size: xx-large;
+}
